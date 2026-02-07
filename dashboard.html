@@ -472,17 +472,17 @@
 
     <div class="dashboard-layout">
         <aside class="sidebar">
-            <div class="logo" onclick="location.href='index.html'">
-                <img src="logo.png" alt="Ghar Doctor Logo" class="logo-img">
-                <span class="logo-text">Ghar Doctor</span>
-            </div>
-            <nav style="display: block; background: transparent; padding: 0; box-shadow: none; position: static;">
-                <a href="index.html"><i class="fa-solid fa-home"></i> Home</a>
-                <a class="active"><i class="fa-solid fa-chart-line"></i> Live Dashboard</a>
-                <a href="#"><i class="fa-solid fa-file-medical"></i> Patient Reports</a>
-                <a href="#"><i class="fa-solid fa-gear"></i> Settings</a>
-            </nav>
+    <div class="logo" style="color: white; margin-bottom: 2rem;">
+        <i class="fa-solid fa-user-doctor"></i> Ghar Doctor
+    </div>
+    <nav style="display: block; background: transparent; padding: 0; box-shadow: none;">
+        <a href="index.html">Home</a>
+        <a href="dashboard.html" class="active">Live Dashboard</a>
+        <a href="medical-history.html">Medical History</a> 
+        <a href="settings.html">Settings</a>
+    </nav>
         </aside>
+        
         <main class="dash-content">
             <div
                 style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; flex-wrap: wrap; gap: 1rem;">
@@ -493,7 +493,7 @@
                 </div>
                 <div>
                     <span style="color: var(--text-light); margin-right: 0.5rem;">Connection Status: </span>
-                    <span class="status-badge status-normal"><i class="fa-solid fa-wifi pulse-animation"></i> Live Data
+                    <span class="status-badge status-normal"><i class="fa-solid fa-wifi pulse-animation"</i> Live Data
                         Incoming</span>
                 </div>
             </div>
@@ -576,5 +576,6 @@
 
     <script src="js/script.js"></script>
 </body>
+
 
 </html>
